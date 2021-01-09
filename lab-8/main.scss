@@ -1,0 +1,32 @@
+$white: #fff;
+$dark-grayish-blue: #2d2d38;
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+@mixin user-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background: $white;
+    color: $dark-grayish-blue;
+}
+
+.title {
+    @include user-select;
+}
+
+.box {
+    @include transform(rotate(30deg));
+    width: 960px / 80px + 40px;
+    height: 960px / 80px + 40px;
+    background: $dark-grayish-blue;
+    margin: 0 auto;
+}

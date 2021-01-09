@@ -1,0 +1,21 @@
+body {
+  background: #fff;
+  color: #2d2d38;
+}
+
+.title {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.box {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  width: 52px;
+  height: 52px;
+  background: #2d2d38;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */

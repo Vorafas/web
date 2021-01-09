@@ -1,0 +1,19 @@
+.wrapper {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #111111;
+}
+
+form {
+    border: 1px solid #ccc;
+    width: fit-content;
+    padding: 20px;
+}
